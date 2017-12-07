@@ -16,4 +16,6 @@
 (global-set-key (kbd "M-w") 'previous-line)
 (global-set-key (kbd "M-s") 'next-line)
 (tool-bar-mode -1)
+(global-set-key (kbd "M-e") 'backward-kill-word)
+(global-set-key (kbd "M-f") 'delete-backward-char)
 (global-set-key (kbd "C-s") 'save-buffer)
